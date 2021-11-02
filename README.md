@@ -1,3 +1,3 @@
 # Awesome Ruby Project
 
-A GitHub Template Project for Ruby.
+A GitHub Template Repository for Ruby.
