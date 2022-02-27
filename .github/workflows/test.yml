@@ -12,6 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: ruby/setup-ruby@v1
+      - name: bundle install
+        run: |
+          bundle install
       - name: run test
         run: |
-          ruby test/test_sample.rb
+          bundle exec ruby test/test_sample.rb
