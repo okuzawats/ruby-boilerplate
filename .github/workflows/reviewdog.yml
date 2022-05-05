@@ -14,5 +14,6 @@ jobs:
         uses: reviewdog/action-rubocop@v2
         with:
           rubocop_version: gemfile
+          # if your repository is private, use your own access token
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-review

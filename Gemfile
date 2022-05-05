@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-gem 'rubocop', require: false
+gem 'rubocop', '~> 1.28', require: false
 
 group :test do
   gem 'codecov', require: false
